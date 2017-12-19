@@ -1,0 +1,18 @@
+- resource_type: Youtube
+  youtube_id: 3kRXU2DbLiI
+- resource_type: Youtube
+  youtube_id: aVEfctGSYjE
+- resource_type: Document
+  youtube_id:
+  document_title: Understanding Your Hepatitis B (Hep B) Test Results
+  document_location: 'https://jumpshare.com/v/05hLLK8d4HHkZJbWg14F'
+  document_link_text: View/Download
+  document_background_image_path: /assets/images/resources/img1.png
+- resource_type: Youtube
+  youtube_id: kYCHzTtsQdk
+- resource_type: Document
+  youtube_id:
+  document_title: Hepatitis B Serology Fact Sheet
+  document_location: 'https://jumpshare.com/v/69Y9gQwvjnYBTF5cf6Ye'
+  document_link_text: Download
+  document_background_image_path:

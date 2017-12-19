@@ -1,0 +1,28 @@
+---
+layout: default
+title: Resources
+---
+
+{% for resource in site.data.resources %}
+
+        <div class="resource-item">
+            
+            {% if resource.resource_type == 'Youtube' %}
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ resource.youtube_id }}" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>            
+            {% endif %}
+
+            {% if resource.resource_type == 'Document' %}
+                {% if resource.document_background_image_path %}
+                    <img class="resource-img" src="{{ resource.document_background_image_path }}"/>
+                {% endif %}
+                {% if resource.document_title %}
+                    <div class="resource-title">{{ resource.document_title }}</div>
+                {% endif %}
+                <a class="resource-link" href="{{ resource.document_location }}" target="_blank">
+                    {{ resource.document_link_text }}
+                </a>
+            {% endif %}
+
+        </div>    
+
+{% endfor %}

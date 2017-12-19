@@ -1,0 +1,33 @@
+.resource-item {
+    height: 315px;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    margin-bottom: 3em;
+    border: 1px solid #666;
+}
+
+.resource-title {
+    position: absolute;
+    padding: .5em;
+    background-color: black;
+    color: white;
+    top: 110px;
+    width: 100%;
+}
+
+.resource-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.resource-link {
+    position: absolute;
+    padding: .5em;
+    background-color: lightblue;
+    color: black;
+    top: 180px;
+    width: 100%;
+    display: block;
+}

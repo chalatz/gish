@@ -1,0 +1,17 @@
+---
+layout: default
+title: Gallery
+---
+
+{% for photo in site.data.photos %}
+
+    <a href="{{ photo.large_image_path }}">
+        {% if photo.thumbnail_image_path %}
+            <img src="{{ photo.thumbnail_image_path }}" alt="">
+        {% else %}
+            {% assign width = site._options.thumbnail_image_path.width %}
+            <img src="{{ photo.large_image_path }}" width="{{ width }}" alt="">
+        {% endif %}
+    </a>
+
+{% endfor %}

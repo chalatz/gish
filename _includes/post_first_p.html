@@ -1,0 +1,10 @@
+{% assign paragraphs = post.content | split:'</p>' %}
+
+{% for paragraph in paragraphs%}
+
+    {% unless paragraph contains '<img' %}
+        {{ paragraph | strip_html | truncatewords: 15 }}
+        {% break %}
+    {% endunless %}
+
+{% endfor %}
