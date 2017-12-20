@@ -50,7 +50,7 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-  - algoliasearch-jekyll
+  - jekyll-algolia
 
 algolia:
   application_id: '3WRZ5YBWUQ'
