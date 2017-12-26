@@ -42,7 +42,6 @@ resource_types:
 # These options tell Cloudcannon to resize the uploaed image  
 _options:
   thumbnail_image_path:
-    width: 200
     height: 200  
 
 # Build settings
